@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+
+    <!-- phần giao diện menu -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="product-detail.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+        </div>
+    </div>
+
+    <!-- hết phần header -->
+
+    <!-- phần thôg tin chi tiết sản phẩm -->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" id="productImg" width="100%">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" class="smallimg" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" class="smallimg" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" class="smallimg" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" class="smallimg" width="100%">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Read Printd T-Shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Carrt</a>
+                <h3>Product Detail <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Give yous summer wardrobe a style upgrade width the HRX Men's Active T-Shirt. Team it width a pair of
+                    shorts for your morning workout or a denims for an evening out width the guys</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============tiêu đề ====================== -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Product</h2>
+            <p>view more</p>
+        </div>
+    </div>
+
+    <!-- phần sản phầm product -->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <a href="product-detail.html"> <img src="images/product-5.jpg"></a>
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail.html"> <img src="images/product-6.jpg"></a>
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail.html"> <img src="images/product-7.jpg"></a>
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail.html"> <img src="images/product-8.jpg"></a>
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- hết product sản phẩm -->
+
+    <!-- phần footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Dowload App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse architecto expedita sint fuga
+                        maiores rerum amet labore error ex autem.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>User Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilitate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>User Link</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twiter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - Easy Tutorial</p>
+        </div>
+    </div>
+
+    <!-- =======js menu toggle======= -->
+    <script src="product-detail.js"></script>
+</body>
+
+</html>
